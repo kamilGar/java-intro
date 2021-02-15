@@ -3,15 +3,11 @@ class Age {
 
     public static void main(String[] args) {
 
-        System.out.println(CheckAge(33));
+        System.out.println(checkAge(33));
     }
 
-    static String CheckAge(int age) {
-        if (age >= 18) {
-            return "pelnoletni";
-        }
-        else {
-            return "niepelnoletni";
-        }
+    static boolean checkAge(int age) {
+        return age >= 18;
     }
 }
+
