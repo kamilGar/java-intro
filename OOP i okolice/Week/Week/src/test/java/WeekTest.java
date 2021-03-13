@@ -5,21 +5,33 @@ public class WeekTest {
 
     @Test
     void shouldReturnFriday() {
-        String result = Week.daysOfTheWeek(5);
+        // given
+        Week week = new Week();
+        // when
+        String result = week.daysOfTheWeek(5);
+        // then
         Assertions.assertEquals("Friday", result);
 
     }
 
     @Test
     void shouldReturnWeekend() {
-        String result = Week.daysOfTheWeek(6);
+        // given
+        Week week = new Week();
+        // when
+        String result = week.daysOfTheWeek(6);
+        // then
         Assertions.assertEquals("Weekend", result);
 
     }
 
     @Test
     void shouldReturnNoSuchDay() {
-        String result = Week.daysOfTheWeek(9);
+        // given
+        Week week = new Week();
+        // when
+        String result = week.daysOfTheWeek(9);
+        // then
         Assertions.assertEquals("There is no such day", result);
 
     }

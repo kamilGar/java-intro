@@ -1,4 +1,4 @@
-public class WeekMain {
+protected class WeekMain {
 
     public static String daysOfTheWeek(int day) {
         String result = "";

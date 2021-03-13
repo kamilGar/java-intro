@@ -1,6 +1,6 @@
 public class Week {
 
-    public static String daysOfTheWeek(int day) {
+    protected String daysOfTheWeek(int day) {
         String result = "";
         switch (day) {
             case 1:
